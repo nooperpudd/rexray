@@ -19,8 +19,8 @@ import (
 	"github.com/soheilhy/cmux"
 	"google.golang.org/grpc"
 
-	"github.com/thecodeteam/gocsi"
-	"github.com/thecodeteam/gocsi/csi"
+	"github.com/rexray/gocsi"
+	"github.com/rexray/gocsi/csi"
 
 	"github.com/rexray/rexray/agent"
 	"github.com/rexray/rexray/core"

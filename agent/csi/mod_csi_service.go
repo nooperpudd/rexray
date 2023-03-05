@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/thecodeteam/gocsi"
-	"github.com/thecodeteam/gocsi/csi"
-	"github.com/thecodeteam/goioc"
+	"github.com/akutz/goioc"
+	"github.com/rexray/gocsi"
+	"github.com/rexray/gocsi/csi"
 )
 
 // ServiceProvider is a gRPC endpoint that provides the CSI

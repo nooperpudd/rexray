@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/thecodeteam/gocsi/csi"
+	"github.com/rexray/gocsi/csi"
 
 	apitypes "github.com/rexray/rexray/libstorage/api/types"
 )
