@@ -1,8 +1,9 @@
+//go:build !controller
 // +build !controller
 
 package main
 
 import (
 	// load the libstorage packages
-	_ "github.com/rexray/rexray/libstorage/imports/executors"
+	_ "github.com/nooperpudd/rexray/libstorage/imports/executors"
 )

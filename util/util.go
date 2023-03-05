@@ -21,10 +21,10 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/context"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
 
-	"github.com/rexray/rexray/core"
+	"github.com/nooperpudd/rexray/core"
 )
 
 var (

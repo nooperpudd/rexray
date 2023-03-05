@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package utils
@@ -5,7 +6,7 @@ package utils
 import (
 	"regexp"
 
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 // DeviceRange holds slices for device namespace iteration

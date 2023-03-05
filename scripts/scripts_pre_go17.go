@@ -1,13 +1,12 @@
-// +build !go1.7
-// +build !agent
-// +build !controller
+//go:build !go1.7 && !agent && !controller
+// +build !go1.7,!agent,!controller
 
 package scripts
 
 import (
 	"net/http"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
 	"golang.org/x/net/context/ctxhttp"
 )
 

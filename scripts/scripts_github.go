@@ -1,5 +1,5 @@
-// +build !agent
-// +build !controller
+//go:build !agent && !controller
+// +build !agent,!controller
 
 package scripts
 
@@ -10,7 +10,7 @@ import (
 	"path"
 
 	"github.com/akutz/goof"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 const (

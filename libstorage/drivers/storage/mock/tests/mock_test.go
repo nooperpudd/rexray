@@ -1,3 +1,4 @@
+//go:build mock
 // +build mock
 
 package mock
@@ -12,20 +13,19 @@ import (
 	"github.com/akutz/goof"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/server"
-	apitests "github.com/rexray/rexray/libstorage/api/tests"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils"
+	"github.com/nooperpudd/rexray/libstorage/api/context"
+	"github.com/nooperpudd/rexray/libstorage/api/server"
+	apitests "github.com/nooperpudd/rexray/libstorage/api/tests"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/utils"
 
 	// load the  driver
 
-	"github.com/rexray/rexray/libstorage/drivers/storage/mock"
-	mockx "github.com/rexray/rexray/libstorage/drivers/storage/mock/executor"
+	"github.com/nooperpudd/rexray/libstorage/drivers/storage/mock"
+	mockx "github.com/nooperpudd/rexray/libstorage/drivers/storage/mock/executor"
 )
 
 var (
-	
 	configYAML = []byte(`
 libstorage:
   driver: mock

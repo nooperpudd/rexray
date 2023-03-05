@@ -1,17 +1,17 @@
-// +build !client
-// +build !controller
+//go:build !client && !controller
+// +build !client,!controller
 
 package main
 
 import (
 	// Load the agent's modules
-	_ "github.com/rexray/rexray/agent/csi"
+	_ "github.com/nooperpudd/rexray/agent/csi"
 
 	// Load the in-tree CSI plug-ins
-	_ "github.com/rexray/rexray/agent/csi/libstorage"
+	_ "github.com/nooperpudd/rexray/agent/csi/libstorage"
 
 	// Load vendored CSI plug-ins
-	_ "github.com/thecodeteam/csi-blockdevices/provider"
-	_ "github.com/thecodeteam/csi-nfs/provider"
-	_ "github.com/thecodeteam/csi-vfs/provider"
+	_ "github.com/rexray/csi-blockdevices/provider"
+	//_ "github.com/rexray/csi-nfs/provider"
+	//_ "github.com/rexray/csi-vfs/provider"
 )

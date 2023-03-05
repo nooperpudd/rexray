@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/context"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 const (

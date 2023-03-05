@@ -1,5 +1,5 @@
-// +build !agent
-// +build !client
+//go:build !agent && !client
+// +build !agent,!client
 
 package util
 
@@ -9,8 +9,8 @@ import (
 	"os"
 
 	gofig "github.com/akutz/gofig/types"
-	apiserver "github.com/rexray/rexray/libstorage/api/server"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apiserver "github.com/nooperpudd/rexray/libstorage/api/server"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 const defaultServiceConfigFormat = `

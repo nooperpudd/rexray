@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/drivers/storage/ebs"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/drivers/storage/ebs"
 )
 
 const (

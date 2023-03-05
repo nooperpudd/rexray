@@ -1,5 +1,5 @@
-// +build !client
-// +build !agent
+//go:build !client && !agent
+// +build !client,!agent
 
 package cli
 
@@ -10,9 +10,9 @@ import (
 	gofig "github.com/akutz/gofig/types"
 	"github.com/akutz/gotil"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/util"
+	"github.com/nooperpudd/rexray/libstorage/api/context"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/util"
 )
 
 func installSelfCert(

@@ -1,3 +1,4 @@
+//go:build !go1.7
 // +build !go1.7
 
 package libstorage
@@ -7,11 +8,11 @@ import (
 
 	gofig "github.com/akutz/gofig/types"
 
-	apictx "github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/server"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils"
-	"github.com/rexray/rexray/libstorage/client"
+	apictx "github.com/nooperpudd/rexray/libstorage/api/context"
+	"github.com/nooperpudd/rexray/libstorage/api/server"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/utils"
+	"github.com/nooperpudd/rexray/libstorage/client"
 )
 
 // New starts an embedded libStorage server and returns both the server

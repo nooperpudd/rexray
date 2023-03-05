@@ -5,9 +5,9 @@ import (
 
 	gofig "github.com/akutz/gofig/types"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/context"
+	"github.com/nooperpudd/rexray/libstorage/api/registry"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 const (

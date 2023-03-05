@@ -7,24 +7,24 @@ import (
 	"strings"
 
 	"github.com/akutz/gotil"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 // NewPathConfig returns a new path configuration object.
 //
 // The args parameter can take zero to three arguments:
 //
-//   1. The first argument is treated as a custom root, data
-//      directory path. This defaults root path is "/".
+//  1. The first argument is treated as a custom root, data
+//     directory path. This defaults root path is "/".
 //
-//   2. The second argument is treated as a custom application
-//      token. This is used to brand libStorage's paths, files,
-//      and environment variables. The default application
-//      token is "libstorage".
+//  2. The second argument is treated as a custom application
+//     token. This is used to brand libStorage's paths, files,
+//     and environment variables. The default application
+//     token is "libstorage".
 //
-//   3. The third argument is treated as a custom home directory
-//      for the executing process's user. The default value
-//      is the user's home directory.
+//  3. The third argument is treated as a custom home directory
+//     for the executing process's user. The default value
+//     is the user's home directory.
 func NewPathConfig(args ...string) *types.PathConfig {
 
 	var (

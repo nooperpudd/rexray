@@ -12,8 +12,8 @@ import (
 	"github.com/akutz/goof"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/context"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 type headerKey int

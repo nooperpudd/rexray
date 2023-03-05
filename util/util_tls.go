@@ -14,9 +14,9 @@ import (
 	"regexp"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/akutz/gotil"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
+	log "github.com/sirupsen/logrus"
 )
 
 var (

@@ -13,8 +13,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/rexray/rexray/cli/template"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/cli/template"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 type templateObject struct {

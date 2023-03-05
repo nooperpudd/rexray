@@ -1,3 +1,4 @@
+//go:build !client
 // +build !client
 
 package cli
@@ -17,10 +18,10 @@ import (
 	"github.com/akutz/gotil"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/rexray/rexray/core"
-	apictx "github.com/rexray/rexray/libstorage/api/context"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/util"
+	"github.com/nooperpudd/rexray/core"
+	apictx "github.com/nooperpudd/rexray/libstorage/api/context"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/util"
 )
 
 type startFunc func(

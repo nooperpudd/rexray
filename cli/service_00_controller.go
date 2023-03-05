@@ -1,13 +1,13 @@
-// +build !client
-// +build !agent
+//go:build !client && !agent
+// +build !client,!agent
 
 package cli
 
 import (
 	gofig "github.com/akutz/gofig/types"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/util"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/util"
 )
 
 func init() {

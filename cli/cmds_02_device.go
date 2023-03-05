@@ -1,11 +1,11 @@
-// +build !agent
-// +build !controller
+//go:build !agent && !controller
+// +build !agent,!controller
 
 package cli
 
 import (
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
 	log "github.com/sirupsen/logrus"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
 	"github.com/spf13/cobra"
 )
 

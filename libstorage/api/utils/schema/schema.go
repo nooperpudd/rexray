@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/cesanta/ucl"
 	"github.com/cesanta/validate-json/schema"
+	log "github.com/sirupsen/logrus"
 
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 const (

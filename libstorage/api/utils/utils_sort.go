@@ -3,7 +3,7 @@ package utils
 import (
 	"sort"
 
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 // ByVolumeID implements sort.Interface for []*types.Volume based on the ID

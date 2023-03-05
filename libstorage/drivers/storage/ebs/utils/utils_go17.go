@@ -1,3 +1,4 @@
+//go:build go1.7
 // +build go1.7
 
 package utils
@@ -5,7 +6,7 @@ package utils
 import (
 	"net/http"
 
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 func doRequest(ctx types.Context, req *http.Request) (*http.Response, error) {

@@ -1,5 +1,5 @@
-// +build !agent
-// +build !controller
+//go:build !agent && !controller
+// +build !agent,!controller
 
 package cli
 
@@ -9,12 +9,12 @@ import (
 	"regexp"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/akutz/goof"
+	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/util"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/util"
 )
 
 func init() {

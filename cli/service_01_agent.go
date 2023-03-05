@@ -1,9 +1,9 @@
-// +build !client
-// +build !controller
+//go:build !client && !controller
+// +build !client,!controller
 
 package cli
 
-import "github.com/rexray/rexray/agent"
+import "github.com/nooperpudd/rexray/agent"
 
 func init() {
 	startFuncs = append(startFuncs, agent.Start)

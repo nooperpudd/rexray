@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 
 	"github.com/akutz/gotil"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/utils"
 )
 
 func (d *driver) getVolPath(volumeID string) string {

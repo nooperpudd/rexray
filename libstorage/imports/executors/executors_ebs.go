@@ -1,8 +1,9 @@
+//go:build ebs
 // +build ebs
 
 package executors
 
 import (
 	// load the packages
-	_ "github.com/rexray/rexray/libstorage/drivers/storage/ebs/executor"
+	_ "github.com/nooperpudd/rexray/libstorage/drivers/storage/ebs/executor"
 )

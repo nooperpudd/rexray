@@ -3,9 +3,8 @@ package types
 import (
 	"encoding/json"
 	"fmt"
+	"gopkg.in/yaml.v3"
 	"testing"
-
-	"gopkg.in/yaml.v2"
 
 	"github.com/stretchr/testify/assert"
 )

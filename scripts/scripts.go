@@ -1,5 +1,5 @@
-// +build !agent
-// +build !controller
+//go:build !agent && !controller
+// +build !agent,!controller
 
 /*
 Package scripts includes scripts that are embedded in REX-Ray during the
@@ -10,5 +10,5 @@ package scripts
 import (
 	// depend upon this tool with a nil import in order to preserve it
 	// in the dependency list
-	_ "github.com/jteeuwen/go-bindata"
+	_ "github.com/go-bindata/go-bindata"
 )

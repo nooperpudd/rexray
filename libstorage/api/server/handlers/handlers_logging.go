@@ -16,7 +16,7 @@ import (
 
 	"github.com/akutz/gotil"
 
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/nooperpudd/rexray/libstorage/api/types"
 )
 
 const (

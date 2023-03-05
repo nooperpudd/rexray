@@ -1,3 +1,4 @@
+//go:build client || agent
 // +build client agent
 
 package util
@@ -5,8 +6,8 @@ package util
 import (
 	gofig "github.com/akutz/gofig/types"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
-	apiclient "github.com/rexray/rexray/libstorage/client"
+	apitypes "github.com/nooperpudd/rexray/libstorage/api/types"
+	apiclient "github.com/nooperpudd/rexray/libstorage/client"
 )
 
 func activateLibStorage(
